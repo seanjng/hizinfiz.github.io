@@ -2,7 +2,7 @@ body {
     background-color: #222;
     color: #ddd;
     font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultralight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     height: 100%;
     width: 100%;
     min-height: 100%;
@@ -19,7 +19,7 @@ body {
 
 #main {
     position: relative;
-    top: 30%;
+    top: 40%;
     text-align: center;
 }
 
@@ -29,7 +29,7 @@ a {
 
 a:hover {
     color: #666;
-    -webkit-transition: all 150ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
 }
 .description {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
