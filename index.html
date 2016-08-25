@@ -1,27 +1,36 @@
 <html>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</html>
-
-<style>
-    body {
-        background-color: #333;
-        color: white;
-        font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultralgiht", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        font-size: 50px;
-        height: 100%;
-        width: 100%;
-        min-height: 100%;
-        min-width: 100%;
-        display: table;
-    }
-    
-    div {
-        display: table-cell;
-        vertical-align: middle;
-        text-align: center;
-    }
-</style>
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link 
+</head>
 
 <body>
-    <div>Down for now, while I work on a new website!</div>
+    <div id="everything">
+        <div id="main">
+            <div>
+                Pardon my dust, I'm currently working on a new site!
+            </div>
+            <div>
+                <a id="github" href="https://www.github.com/hizinfiz" onmouseover="$('#githubDesc').fadeToggle()" onmouseout="$('#githubDesc').fadeToggle()">
+                    <i class="fa fa-github-alt" aria-hidden="true"></i></a>      
+                <a id="reddit" href="http://tsunderedev.moe/FlairPicker" onmouseover="$('#redditDesc').fadeToggle()" onmouseout="$('#redditDesc').fadeToggle()">
+                    <i class="fa fa-reddit-alien" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <div class="description" id="githubDesc">
+            My Github Profile
+        </div>
+        <div class="description" id="redditDesc">
+            /r/PokemonGo Flair Picker
+        </div>
+    </div>
+    
+    
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+</html>

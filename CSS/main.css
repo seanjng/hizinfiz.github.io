@@ -1,0 +1,58 @@
+body {
+    background-color: #222;
+    color: #ddd;
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultralight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 50px;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    display: table;
+}
+
+#everything {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;  
+}
+
+#main {
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+
+a {
+    color: #ddd;
+}
+
+a:hover {
+    color: #666;
+    -webkit-transition: all 150ms ease-in-out;
+}
+.description {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#githubDesc {
+    display: none;
+}
+
+#redditDesc {
+    display: none;
+}
+
+
+#github:hover > #githubDesc {
+    display: block;
+}
+
+#reddit:hover > #redditDesc {
+    display: block;
+}
